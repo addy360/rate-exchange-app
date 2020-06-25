@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	background: #eee;
+	color: #333;
+	font-family: 'Montserrat', Sans-serif;
+}
+
+.fas{
+	background: rgba(0,0,0,.8);
+	padding: 2rem;
+	border-radius: 50%;
+	box-shadow: 0 5px 20px rgba(0,0,0,.7);
+	color: #fff;
+	margin: 1rem;
+}
+
+h1{
+	margin: 1.5rem 0 2rem 0;
+	font-size: 3rem;
+	font-weight: lighter;
+}
+
+p{
+	margin: 1rem;
+	font-size: 1.4rem;
+}
+
+.container{
+	border-radius: 8px;
+	border: 1px solid rgba(0,0,0,.1);
+	box-shadow: 0 4px 20px rgba(0,0,0,.6);
+	width: 50%;
+	margin-top: 2rem;
+	padding: 2rem 8rem;
+}
+
+.currency{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+
+.currency select, .currency input{
+	flex:1;
+	padding: .5rem;
+	border-radius: 10px;
+	outline: none;
+	border:none;
+	box-shadow: inset -2px -2px 5px rgba(0,0,0,.4),
+				inset  2px 2px 5px rgba(0,0,0,.4)
+	;
+	font-size: .8rem;
+}
+
+.currency select{
+	margin-right: 1rem;
+}
+
+.rates-container{
+	padding:  1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rates-container .rates{
+	color: purple;
+}
+
+.rates-container button{
+	padding: .4rem .7rem;
+	border-radius: 5px;
+	border:2px solid rgba(0,0,0,.4);
+	outline: none;
+	background:linear-gradient(75deg, #333, #000, #444);
+	color: #fff;
+	transition: all ease .3s ;
+	cursor: pointer;
+}
+
+.rates-container button:hover{
+	background:#ccc;
+	color: #333;
+}

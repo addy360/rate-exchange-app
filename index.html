@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exchange Rates Calculator</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+	<i class="fas fa-phone fa-8x"></i>
+	<h1>Exchange Rates Calculator</h1>
+	<p>Choose a currency and enter amount to get exchange rates</p>
+
+	<div class="container">
+		<div class="currency">
+			<select class="currency-1" >
+				<option value="USD" >USD</option>
+			</select>
+			<input type="number" class="amount-1" placeholder="1" value="1">
+		</div>
+		<div class="rates-container">
+			<button>Swap</button>
+			<div class="rates"></div>
+		</div>
+		<div class="currency">
+			<select class="currency-2" >
+				<option value="USD" >GBP</option>
+			</select>
+			<input type="number" class="amount-2">
+		</div>
+	</div>
+	<script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
